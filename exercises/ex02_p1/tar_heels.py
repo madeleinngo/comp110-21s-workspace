@@ -13,13 +13,13 @@ def main() -> None:
 def tar_heels(choice:int) -> str: 
     if choice % 2 == 0 and choice % 7 == 0: 
         return "TAR HEELS"
-    else:
+    else: 
         if choice % 2 == 0: 
             return "TAR"    
-        else:
+        else: 
             if choice % 7 == 0: 
                 return "HEELS"
-            else:
+            else: 
                 return "CAROLINA"
 
 
