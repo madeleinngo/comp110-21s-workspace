@@ -10,7 +10,7 @@ def main() -> None:
 
 
 # TODO 1: Define the tar_heels function, and its logic, here.
-def tar_heels(choice:int) -> str: 
+def tar_heels(choice: int) -> str: 
     if choice % 2 == 0 and choice % 7 == 0: 
         return "TAR HEELS"
     else: 
