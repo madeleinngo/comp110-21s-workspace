@@ -2,10 +2,13 @@
 	// See http://go.microsoft.com/fwlink/?LinkId=827846
 	// for the documentation about the extensions.json format
 	"recommendations": [
-        "ms-python.python",
+		"ms-python.python",
 		"ms-python.vscode-pylance",
 		"ms-toolsai.jupyter",
 		"azemoh.one-monokai",
-		"janisdd.vscode-edit-csv"
+		"janisdd.vscode-edit-csv",
+		"mkaufman.htmlhint",
+		"esbenp.prettier-vscode",
+		"ritwickdey.liveserver"
 	]
 }
