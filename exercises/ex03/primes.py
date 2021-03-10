@@ -5,10 +5,6 @@ __author__: str = "730272774"
 
 def main() -> None:
     """Entrypoint of the program."""
-    # Put print statements here to test your function
-    # ex. print(is_prime(5)), print(list_primes(10, 20))
-    print(is_prime(5))
-    print(list_primes(10, 20))
 
 
 def is_prime(a: int) -> bool:

@@ -5,11 +5,6 @@ __author__: str = "730272774"
 
 def main() -> None:
     """Entrypoint of the program."""
-    # Put print statements here to test your function
-    # ex. print(palindromify("race", false))
-    print(palindromify("han", True))
-    print(palindromify("race", False))
-    print(palindromify("live on time ", False))
 
 
 def palindromify(a: str, b: bool) -> str:
