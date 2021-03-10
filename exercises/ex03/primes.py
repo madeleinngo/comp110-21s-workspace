@@ -22,15 +22,13 @@ def is_prime(a: int) -> bool:
 
 def list_primes(a: int, b: int) -> list[int]:
     xs: list[int] = []
-    i: int = 0 
-    c: int = range(1, len(b), b - 1)
-    while i < c:
-        if is_prime(i):
-            xs.append[i]
-            i += 1
+    while a < b:
+        if is_prime(a):
+            xs.append(a)
+            a += 1
         else:
-            i += 1
-        return 
+            a += 1
+    return xs
 
 
 if __name__ == "__main__":
