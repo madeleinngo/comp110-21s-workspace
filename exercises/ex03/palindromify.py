@@ -21,12 +21,11 @@ def palindromify(a: str, b: bool) -> str:
         return word
     else:
         # for odd or false inputs
-        i: int = 0 
-        d: int = (len(a) - 2)
+        e: int = (len(a) - 2)
         while i < (len(a) - 1):
-            word += a[d]
+            word += a[e]
             i += 1
-            d -= 1
+            e -= 1
         return word
 
 
