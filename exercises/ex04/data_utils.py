@@ -20,3 +20,8 @@ def read_csv_rows(csv_file: str) -> list[dict[str, str]]:
 
 
 # TODO: Define the other functions here.
+def column_values(rows: list[dict[str, str]], column: str) -> list[str]
+  columns: list[str] = []
+   for row in rows:
+        columns.append(column)
+    return columns
