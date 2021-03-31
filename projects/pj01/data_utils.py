@@ -63,5 +63,5 @@ def count(selected_data: list[str]) -> dict[str, int]:
         if item in counts:
             counts[item] += 1
         else:
-            counts[item]: = 1
+            counts[item]: int = 1
     return counts
