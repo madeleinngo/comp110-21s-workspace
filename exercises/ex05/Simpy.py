@@ -99,7 +99,12 @@ class Simpy:
                 result.append(self.values[i] > rhs.values[i])
         return result
 
-    def __getitem__(self, rhs: int) -> float:
-        result: float = 0.0
-        result = self[rhs]
-        return result
+    def __getitem__(self, rhs: Union[int, list[bool]]) -> Union[float, Simpy]:
+        result: list[float] = []
+        if isinstance(rhs, int):
+            return self.values[rhs]
+        else:
+            for i in range(len(rhs)):
+                if rhs[i]:
+                    result.append(self[i])
+            return Simpy(result)
